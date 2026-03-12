@@ -104,7 +104,7 @@
     "english": "Bones break",
     "meaning": "Requires considerable effort. (Set 1)",
     "id": 12,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -881,7 +881,7 @@
     "meaning": "Take extra care. (Set 5)",
     "id": 98,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "立つ鳥跡を濁さず",
@@ -890,7 +890,7 @@
     "meaning": "Leave cleanly without trouble. (Set 5)",
     "id": 99,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "手に入れる",
@@ -1061,7 +1061,7 @@
     "meaning": "Take extra care. (Set 6)",
     "id": 118,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "立つ鳥跡を濁さず",
