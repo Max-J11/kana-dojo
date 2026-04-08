@@ -3,7 +3,7 @@
 import { Link } from '@/core/i18n/routing';
 import { useClick } from '@/shared/hooks/generic/useAudio';
 import clsx from 'clsx';
-import { Star, GraduationCap, Settings, FlaskConical, type LucideIcon } from 'lucide-react';
+import { Settings, type LucideIcon } from 'lucide-react';
 
 type NavItem = {
   name: string;
@@ -17,12 +17,9 @@ export default function TopBar() {
 
   const navItems: NavItem[] = [
     { name: 'Kana', href: '/kana', charIcon: 'あ' },
-    { name: 'Vocab', href: '/vocabulary', charIcon: '語' },
     { name: 'Kanji', href: '/kanji', charIcon: '字' },
-    { name: 'Practice', href: '/kana-chart', icon: GraduationCap },
-    { name: 'Progress', href: '/progress', icon: Star },
+    { name: 'Vocab', href: '/vocabulary', charIcon: '語' },
     { name: 'Preferences', href: '/preferences', icon: Settings },
-    { name: 'Labs', href: '/experiments', icon: FlaskConical },
   ];
 
   return (
